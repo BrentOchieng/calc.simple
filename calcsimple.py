@@ -6,19 +6,19 @@ operation =input("enter the operation(+,-,*,/")
 
 #operations from the user input
 if operation =="+":
-  result=number1+number2
-  print(result)
+    esult=number1+number2
+    print(result)
 elif operation=="-":
-  result=number1-number2
-  print(result)
-elif operation==*:
-  result=number1*number2
-  print(result)
+    result=number1-number2
+    print(result)
+elif operation=="*":
+    result=number1*number2
+    print(result)
 elif operation=="/": # check for division by zero (0)
   if number2!=0:
-  result=number1//number2
-  print(result)
+    result=number1//number2
+    print(result)
   else:
     print("error")
 else:
-  print("invalid operation")
+    print("invalid operation")
